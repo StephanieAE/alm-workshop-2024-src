@@ -5,6 +5,10 @@ on:
     branches:
       - '**'
 
+    release:
+      types:
+        - published
+
 env:
   CONTAINER_REPOSITORY: quay.io/stephanieae
   CONTAINER_IMAGE: alm-workshop
